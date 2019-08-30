@@ -9,5 +9,5 @@ jobs:
     steps:
     - name: Assign PR author
       uses: thomaseizinger/assign-pr-creator-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
