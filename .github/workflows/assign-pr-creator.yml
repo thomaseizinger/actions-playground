@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Assign PR to creator
-      if: github.event_name == 'pull_request' && github.event.action == 'opened'
       uses: thomaseizinger/assign-pr-creator-action@v1
+      if: github.event_name == 'pull_request' && github.event.action == 'opened'
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
