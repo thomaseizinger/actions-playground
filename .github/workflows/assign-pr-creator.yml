@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: eventdata
-      runs: ls -la /
+      uses: thomaseizinger/assign-pr-creator-action@master
