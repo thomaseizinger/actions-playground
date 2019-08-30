@@ -7,5 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: eventdata
+    - name: Assign PR author
       uses: thomaseizinger/assign-pr-creator-action@master
