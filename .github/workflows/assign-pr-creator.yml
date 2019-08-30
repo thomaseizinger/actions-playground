@@ -1,4 +1,4 @@
-name: CI
+name: Assign PR to creator
 
 on: 
   pull_request:
@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: eventdata
-      uses: ludeeus/action-eventdata@0.0.1
+      runs: ls -la /
