@@ -7,5 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Print event data
-    - uses: ludeeus/action-eventdata@0.0.1
+    - name: eventdata
+      uses: ludeeus/action-eventdata@0.0.1
